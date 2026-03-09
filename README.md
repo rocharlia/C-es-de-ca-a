@@ -27,19 +27,19 @@ Front-end:
 &nbsp;&nbsp;  como os botões reagem ao ponteiro  
 &nbsp;&nbsp;  como o usuário percebe o progresso de candidatar-se à vaga  
 &nbsp;&nbsp;  como o gerente percebe o progresso de criar uma vaga  
-&nbsp;&nbsp;  como o usuário percebe seu progresso em um teste
-&nbsp;&nbsp;  como impedir um usuário testando de trapacear em testes
-&nbsp;  ícones
-&nbsp;&nbsp;  variação da logomarca para páginas de erro
-&nbsp;  marca
-&nbsp;&nbsp;  identidade visual da marca
-&nbsp;&nbsp;  forma que essa identidade visual é comunicada na página
-&nbsp;&nbsp;&nbsp;  valores: eco-amigável, projetos sociais, profissionalismo e tradição
-
-Back-end:
-&nbsp;  criar um DB para usuários
-&nbsp;  criar um DB para gerentes
-&nbsp;  definir alguma função ou coluna capaz de separar entre esses dois
-&nbsp;  definir uma forma de listar palavras-chave que possam diferenciar as vagas
-&nbsp;  definir uma forma de listar palavras-chave que possam diferenciar os usuários
+&nbsp;&nbsp;  como o usuário percebe seu progresso em um teste  
+&nbsp;&nbsp;  como impedir um usuário testando de trapacear em testes  
+&nbsp;  ícones  
+&nbsp;&nbsp;  variação da logomarca para páginas de erro  
+&nbsp;  marca  
+&nbsp;&nbsp;  identidade visual da marca  
+&nbsp;&nbsp;  forma que essa identidade visual é comunicada na página  
+&nbsp;&nbsp;&nbsp;  valores: eco-amigável, projetos sociais, profissionalismo e tradição  
+  
+Back-end:  
+&nbsp;  criar um DB para usuários  
+&nbsp;  criar um DB para gerentes  
+&nbsp;  definir alguma função ou coluna capaz de separar entre esses dois  
+&nbsp;  definir uma forma de listar palavras-chave que possam diferenciar as vagas  
+&nbsp;  definir uma forma de listar palavras-chave que possam diferenciar os usuários  
 &nbsp;  criar um DB para as vagas
