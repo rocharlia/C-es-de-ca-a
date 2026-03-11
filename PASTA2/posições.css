@@ -7,7 +7,6 @@
 
 /* imagem de header e texto abaixo */
     .header {
-        background-image: url("images.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -19,10 +18,6 @@
         }
 
     .header h1 {
-        color: var(--cor1);
-        font-size: 3em;
-        font-weight: 900;
-
         user-select: none;
         max-width: 7ch;
         word-wrap: break-word;
