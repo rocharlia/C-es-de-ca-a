@@ -1,9 +1,9 @@
 .titulo{
-    color: #483D8B;
+    color: #ff5900;
     font-weight: bold;
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(218, 26, 26, 0.3);
 }
 
 *{
@@ -14,9 +14,8 @@
 
 .menu{
     list-style: none;
-    background: #483D8B;
+    background: #ff5900;
     padding: 0 40px;
-
 }
 
 .menu li{
@@ -29,46 +28,60 @@
     padding: 10px 14px;
     color: white;
     text-decoration: none;
-    font-size: 15px;
 }
 
 .menu li a:hover{
-    background: #6959CD;
+    background: #b44a11;
 }
 
-
 .dropdown{
-    background: rgba(72, 61, 139, 0.3); 
-    backdrop-filter: blur(6px);         
+    background: rgba(255, 89, 0, 0.3);
+    backdrop-filter: blur(6px);
     position: absolute;
-    right: 0;      
+    right: 0;
     width: 220px;
     display: none;
-    max-height: 250px;  
-    overflow-y: auto;
-
-}
-
-.dropdown::-webkit-scrollbar {
-    display: none;
-}
-
-
-.dropdown{
-    scrollbar-width: none;
 }
 
 .dropdown li{
     display: block;
 }
 
-
 .menu li:hover .dropdown{
     display: block;
 }
 
-
-
 .direita{
     float: right;
+}
+
+
+#buscarVaga{
+    width:300px;
+    padding:10px;
+    margin:20px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+
+.vaga{
+    border:1px solid #ccc;
+    padding:15px;
+    margin:15px 20px;
+    border-radius:8px;
+    background:#f9f9f9;
+}
+
+
+.candidatar{
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.candidatar.clicado{
+    color: green;
 }
