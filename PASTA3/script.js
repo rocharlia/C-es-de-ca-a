@@ -14,6 +14,7 @@ const entrarBtn = document.getElementById("entrarBtn");
 const cadastrarBtn = document.getElementById("cadastrarBtn");
 const alterarBtn = document.getElementById("alterarBtn");
 
+
 const loginEmail = document.getElementById("loginEmail");
 const loginSenha = document.getElementById("loginSenha");
 
@@ -21,10 +22,11 @@ const cadEmail = document.getElementById("cadEmail");
 const senhaCadastro = document.getElementById("senhaCadastro");
 const novaSenha = document.getElementById("novaSenha");
 
+
 // erro visual
 function mostrarErro(input){
   input.classList.remove("erro");
-  void input.offsetWidth; // força reiniciar animação
+  void input.offsetWidth; // reiniciar animação
   input.classList.add("erro");
 
   setTimeout(() => input.classList.remove("erro"), 500);
@@ -65,8 +67,18 @@ cadastrar.onclick = () => {
   telaLogin.style.display = "none";
   telaCadastro.style.display = "flex";
   voltarBtn.style.display = "block";
+
+  document.getElementById("regrasSenha").style.display = "block";
 };
 
+voltarBtn.onclick = () => {
+  telaSenha.style.display = "none";
+  telaCadastro.style.display = "none";
+  telaLogin.style.display = "flex";
+  voltarBtn.style.display = "none";
+
+  document.getElementById("regrasSenha").style.display = "none";
+};
 // botão voltar
 voltarBtn.onclick = () => {
   telaSenha.style.display = "none";

@@ -98,6 +98,20 @@ input{
     border:2px solid red;
     animation:tremer 0.2s;
 }
+   
+#regrasSenhaCadastro {
+  font-size: 11px;
+  color: #e26c1d;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+#AlterarSenha {
+  font-size: 11px;
+  color: #e26c1d;
+  margin-top: 5px;
+  line-height: 1.4;
+}
 
 @keyframes tremer{
     0%{transform:translateX(0);}
