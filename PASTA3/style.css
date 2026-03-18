@@ -107,7 +107,7 @@ input{
     100%{transform:translateX(0);}
 }
 
-/* MOBILE */
+/* celular */
 @media(max-width:600px){
     .dropdown{
         width:90%;
