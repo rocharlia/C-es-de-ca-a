@@ -36,7 +36,6 @@
     display:none;
 }
 
-
 #voltarBtn{
     display:none;
     color:#ff5900;
@@ -58,7 +57,7 @@ label{
     margin-top:10px;
 }
 
-/* caixa de texto*/
+/* caixa de texto */
 input{
     width:100%;
     padding:10px;
@@ -67,7 +66,7 @@ input{
     border:none;
 }
 
-/*alinhamento de troca de senha e cadastro*/
+/* alinhamento de troca de senha e cadastro */
 #esqueceu, #cadastrar{
     width:100%;
     text-align:center;
@@ -93,24 +92,32 @@ input{
     background:#b44a11;
 }
 
-
+/* erro */
 .erro{
     border:2px solid red;
     animation:tremer 0.2s;
 }
    
-#regrasSenhaCadastro {
+#regrasSenhaCadastro,
+#AlterarSenha {
   font-size: 11px;
   color: #e26c1d;
   margin-top: 5px;
   line-height: 1.4;
 }
 
-#AlterarSenha {
-  font-size: 11px;
-  color: #e26c1d;
-  margin-top: 5px;
-  line-height: 1.4;
+/* cor verde nas regras de senha */
+.valido{
+    color: #2ecc36; /* verde */
+    font-weight: bold;
+}
+
+/* aviso de email duplicado */
+#erroEmail{
+    font-size:12px;
+    color:red;
+    margin-top:3px;
+    display:none; /* já controlado pelo JS */
 }
 
 @keyframes tremer{

@@ -13,10 +13,8 @@
 
   <div class="dropdown" id="loginMenu">
 
-    
     <span id="voltarBtn">←</span>
 
-    
     <div id="telaLogin">
       <label>e-mail</label>
       <input type="email" id="loginEmail">
@@ -30,39 +28,40 @@
       <button id="entrarBtn" class="btn">entrar</button>
     </div>
 
-    
     <div id="telaSenha" style="display:none;">
       <label>nova senha</label>
       <input type="password" id="novaSenha">
 
       <p id="AlterarSenha">
-              A senha deve ter:
-             <br>• Pelo menos 6 caracteres
-             <br>• Letra maiúscula
-             <br>• Letra minúscula
-            <br>• Número
-           </p>
+        A senha deve ter:
+        <br><span id="a1">• Pelo menos 6 caracteres</span>
+        <br><span id="a2">• Letra maiúscula</span>
+        <br><span id="a3">• Letra minúscula</span>
+        <br><span id="a4">• Número</span>
+      </p>
 
       <button id="alterarBtn" class="btn">alterar</button>
     </div>
 
-    
+
     <div id="telaCadastro" style="display:none;">
       <label>e-mail</label>
       <input type="email" id="cadEmail">
 
+      <p id="erroEmail" >
+        Email já cadastrado
+      </p>
+
       <label>senha</label>
       <input type="password" id="senhaCadastro">
 
-           <p id="regrasSenhaCadastro">
-              A senha deve ter:
-             <br>• Pelo menos 6 caracteres
-             <br>• Letra maiúscula
-             <br>• Letra minúscula
-            <br>• Número
-           </p>
-
-
+      <p id="regrasSenhaCadastro">
+        A senha deve ter:
+        <br><span id="r1">• Pelo menos 6 caracteres</span>
+        <br><span id="r2">• Letra maiúscula</span>
+        <br><span id="r3">• Letra minúscula</span>
+        <br><span id="r4">• Número</span>
+      </p>
 
       <button id="cadastrarBtn" class="btn">cadastrar</button>
     </div>
