@@ -55,7 +55,6 @@
     float: right;
 }
 
-
 #buscarVaga{
     width:300px;
     padding:10px;
@@ -64,7 +63,6 @@
     border:1px solid #ccc;
 }
 
-
 .vaga{
     border:1px solid #ccc;
     padding:15px;
@@ -72,7 +70,6 @@
     border-radius:8px;
     background:#f9f9f9;
 }
-
 
 .candidatar{
     color: blue;
